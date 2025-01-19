@@ -1,11 +1,34 @@
 # Neural-networks-in-image-processing
-Histological Image Patch Classification Model
+## Histological Image Patch Classification Model
 
-Нейронные сети в обработке изображений. Вводный курс
-Реализованные дополнения:
-* '#LBL1' -- аугментация данных
-* '#LBL2' -- Валидация на части обучающей выборки
-* '#LBL3' -- Вывод различных показателей в процессе обучения (например, значение функции потерь на каждой эпохе)
-* '#LBL4' -- Автоматическое сохранения модели при обучении
-* '#LBL5' -- Построение графиков, визуализирующих процесс обучения
-* '#LBL6' -- Построение матрицы ошибок, оценивание чувствительности и специфичности модели
+## Dataset
+
+The dataset consists of color histological image patches, each labeled with one of the nine classes. These patches provide diverse histological patterns and textures critical for robust model training and evaluation.
+
+## Classes:
+
+ADI: Adipose tissue.
+
+BACK: Background (no tissue).
+
+DEB: Debris.
+
+LYM: Lymphocytes.
+
+MUC: Mucin.
+
+MUS: Muscle tissue.
+
+NORM: Normal tissue.
+
+STR: Stroma.
+
+TUM: Tumor tissue.
+
+## Implemented Enhancements:
+* `#LBL1` -- Data augmentation
+* `#LBL2` -- Validation on a subset of the training dataset
+* `#LBL3` -- Displaying various metrics during training (e.g., loss function value at each epoch)
+* `#LBL4` -- Automatic model saving during training
+* `#LBL5` -- Plotting graphs to visualize the training process
+* `#LBL6` -- Confusion matrix construction, evaluation of model sensitivity and specificity
