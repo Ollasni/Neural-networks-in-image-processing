@@ -1,4 +1,6 @@
-#Histological Image Patch Classification
+# Histological Image Patch Classification
+
+
 Evaluation Result on Full Test Dataset: 0.9825
 
 ## Dataset
