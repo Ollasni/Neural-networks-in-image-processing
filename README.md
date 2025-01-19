@@ -1,5 +1,5 @@
-# Neural-networks-in-image-processing
-Histological Image Patch Classification Model
+#Histological Image Patch Classification
+Evaluation Result on Full Test Dataset: 0.9825
 
 ## Dataset
 
@@ -24,8 +24,6 @@ NORM: Normal tissue.
 STR: Stroma.
 
 TUM: Tumor tissue.
-
-## Evaluation Result on Full Test Dataset: 0.9825
 
 ## Implemented Enhancements:
 * `#LBL1` -- Data augmentation
